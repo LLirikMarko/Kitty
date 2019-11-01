@@ -1,0 +1,164 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{3BBA9081-0FEA-4720-B8D2-D2567F41780E}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>cat_test</RootNamespace>
+    <AssemblyName>cat_test</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="РасписаниеАдмин.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="РасписаниеАдмин.Designer.cs">
+      <DependentUpon>РасписаниеАдмин.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Окно3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Окно3.Designer.cs">
+      <DependentUpon>Окно3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Окно2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Окно2.Designer.cs">
+      <DependentUpon>Окно2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Окно1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Окно1.Designer.cs">
+      <DependentUpon>Окно1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Редактирование расписания.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Редактирование расписания.Designer.cs">
+      <DependentUpon>Редактирование расписания.cs</DependentUpon>
+    </Compile>
+    <Compile Include="РасписаниеПользователь.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="РасписаниеПользователь.Designer.cs">
+      <DependentUpon>РасписаниеПользователь.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Пользователь.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Пользователь.Designer.cs">
+      <DependentUpon>Пользователь.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Админ.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Админ.Designer.cs">
+      <DependentUpon>Админ.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Добавить кормушку.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Добавить кормушку.Designer.cs">
+      <DependentUpon>Добавить кормушку.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Мониторинг пользователя.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Мониторинг пользователя.Designer.cs">
+      <DependentUpon>Мониторинг пользователя.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Админ.resx">
+      <DependentUpon>Админ.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Добавить кормушку.resx">
+      <DependentUpon>Добавить кормушку.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Мониторинг пользователя.resx">
+      <DependentUpon>Мониторинг пользователя.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Окно1.resx">
+      <DependentUpon>Окно1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Окно2.resx">
+      <DependentUpon>Окно2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Окно3.resx">
+      <DependentUpon>Окно3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Пользователь.resx">
+      <DependentUpon>Пользователь.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="РасписаниеАдмин.resx">
+      <DependentUpon>РасписаниеАдмин.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="РасписаниеПользователь.resx">
+      <DependentUpon>РасписаниеПользователь.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Редактирование расписания.resx">
+      <DependentUpon>Редактирование расписания.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
