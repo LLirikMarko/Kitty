@@ -183,7 +183,7 @@
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(168, 23);
             this.button3.TabIndex = 43;
-            this.button3.Text = "Экспортировать расписание";
+            this.button3.Text = "Импортировать расписание";
             this.button3.UseVisualStyleBackColor = true;
             // 
             // button4
