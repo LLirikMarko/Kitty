@@ -43,6 +43,7 @@
             this.label39 = new System.Windows.Forms.Label();
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // button1
@@ -169,7 +170,7 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(166, 12);
+            this.button2.Location = new System.Drawing.Point(148, 12);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(152, 23);
             this.button2.TabIndex = 42;
@@ -178,18 +179,28 @@
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(341, 12);
+            this.button3.Location = new System.Drawing.Point(306, 12);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(168, 23);
             this.button3.TabIndex = 43;
             this.button3.Text = "Экспортировать расписание";
             this.button3.UseVisualStyleBackColor = true;
             // 
-            // Расписание
+            // button4
+            // 
+            this.button4.Location = new System.Drawing.Point(480, 12);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(131, 23);
+            this.button4.TabIndex = 44;
+            this.button4.Text = "Удалить расписание";
+            this.button4.UseVisualStyleBackColor = true;
+            // 
+            // РасписаниеПользователь
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(684, 361);
+            this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.label39);
@@ -205,7 +216,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button1);
-            this.Name = "Расписание";
+            this.Name = "РасписаниеПользователь";
             this.Text = "Расписание";
             this.Load += new System.EventHandler(this.Расписание_Load);
             this.ResumeLayout(false);
@@ -230,5 +241,6 @@
         private System.Windows.Forms.Label label39;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button button4;
     }
 }
