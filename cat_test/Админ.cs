@@ -82,11 +82,7 @@ namespace cat_test
 
         private void button3_Click_2(object sender, EventArgs e)
         {
-            // Create a new instance of the Form2 class
-            Окно2 settingsForm = new Окно2();
-
-            // Show the settings form
-            settingsForm.Show();
+            
         }
 
         private void button4_Click_1(object sender, EventArgs e)
@@ -96,6 +92,11 @@ namespace cat_test
 
             // Show the settings form
             settingsForm.Show();
+        }
+
+        private void Админ_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

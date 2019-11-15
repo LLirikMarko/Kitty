@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Главное окно.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Главное окно.Designer.cs">
+      <DependentUpon>Главное окно.cs</DependentUpon>
+    </Compile>
     <Compile Include="РасписаниеАдмин.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -108,8 +114,17 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Удалить кормушку.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Удалить кормушку.Designer.cs">
+      <DependentUpon>Удалить кормушку.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Админ.resx">
       <DependentUpon>Админ.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Главное окно.resx">
+      <DependentUpon>Главное окно.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Добавить кормушку.resx">
       <DependentUpon>Добавить кормушку.cs</DependentUpon>
@@ -146,6 +161,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Редактирование расписания.resx">
       <DependentUpon>Редактирование расписания.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Удалить кормушку.resx">
+      <DependentUpon>Удалить кормушку.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

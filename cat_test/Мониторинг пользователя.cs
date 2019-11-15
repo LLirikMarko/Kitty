@@ -54,5 +54,14 @@ namespace cat_test
             // Show the settings form
             settingsForm.Show();
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            // Create a new instance of the Form2 class
+           Удалить_кормушку settingsForm = new Удалить_кормушку();
+
+            // Show the settings form
+            settingsForm.Show();
+        }
     }
 }

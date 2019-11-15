@@ -68,6 +68,7 @@
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label1);
             this.Name = "Окно2";
+            this.Load += new System.EventHandler(this.Окно2_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

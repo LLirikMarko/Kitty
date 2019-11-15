@@ -16,7 +16,7 @@ namespace cat_test
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Админ());
+            Application.Run(new Главное_окно());
         }
     }
 }

@@ -25,5 +25,10 @@ namespace cat_test
             // Show the settings form
             settingsForm.Show();
         }
+
+        private void Окно2_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
