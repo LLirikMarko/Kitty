@@ -23,4 +23,4 @@
 
 Use case диаграмма:
 -----------------------------
-!["Use case диаграмма:"](https://sun9-10.userapi.com/c854228/v854228097/147986/IbK2JAFqxGo.jpg)
+!["Use case диаграмма:"](https://psv4.userapi.com/c856532/u138913784/docs/d12/37842737e0f3/Untitled_Document_1.png?extra=Nm2FP3VsfI5WaiiflXsi4UkwTrfhFFGscvOc4oI_c43y36nIk79kA9JLLnbZM0FmknFOfrCmtnyd7q5nGtC5mHiqg-jSnWCw0l-p4lvTLdiMnNbv0ckkla94mk7Y3GxQUZzqJMTZfKo3IeamxHmqC7RljA)
