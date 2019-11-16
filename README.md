@@ -28,3 +28,7 @@ Use case диаграмма:
 Activity диаграмма:
 -----------------------------
 !["Activity диаграмма:"](https://psv4.userapi.com/c856532/u138913784/docs/d12/bd131e2d8787/Activity_diagram1.png?extra=Mvm3ZwQ8Qbn2slmov65HiRsWvn62fofif9wves1uvEPsqc1dq1HP2nElIuBMP9o_0MDjFb1nzESOY4huhBzV3CcUXCN-_UsbI6ujGYucyMcJ7WICoBTqwlOdi3QkmxZPT3utquJcPu_Mqd9PpOtvHVXNjA)
+
+Class диаграмма:
+-----------------------------
+!["Class диаграмма:"](https://psv4.userapi.com/c856332/u138913784/docs/d13/9f03d4299c62/Class_diagramm.png?extra=UDtqAAb3yC9TswFLDtUceJdkFyXETVAYnmhqsPvKf2fSXJiQwvwC141HIpVKNtEFlGNhSw39SL8fpQxcfN0xpShH8PAHVjVgcOuoQ0citCcBOc247VX61eb4dRmkKktbeDnDCaSdTv7UUYi3ngv01bQw)
