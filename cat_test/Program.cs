@@ -3,8 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Ninject;
 
-namespace cat_test
+namespace View
 {
     static class Program
     {
@@ -14,9 +15,10 @@ namespace cat_test
         [STAThread]
         static void Main()
         {
+            Ninject.StandardKernel kernel = new StandardKernel();
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Главное_окно());
+            Application.Run(new MainWindowView());
         }
     }
 }

@@ -1,4 +1,4 @@
-﻿namespace cat_test
+﻿namespace View
 {
     partial class Пользователь
     {

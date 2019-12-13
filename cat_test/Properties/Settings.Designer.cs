@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace cat_test.Properties
+namespace View.Properties
 {
 
 

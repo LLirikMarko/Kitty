@@ -3,7 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29424.173
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cat_test", "cat_test.csproj", "{3BBA9081-0FEA-4720-B8D2-D2567F41780E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "View", "View.csproj", "{3BBA9081-0FEA-4720-B8D2-D2567F41780E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Models", "Models", "{B126191F-164D-4740-9D5E-508162EDEDA4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{B5106A76-6D50-4038-8319-CFD64F0DF77E}"
+	ProjectSection(SolutionItems) = preProject
+		IAddDelWindowView.cs = IAddDelWindowView.cs
+		IView.cs = IView.cs
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

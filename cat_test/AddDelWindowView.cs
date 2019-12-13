@@ -10,19 +10,14 @@ using System.Windows.Forms;
 
 namespace View
 {
-    public partial class Удалить_кормушку : Form
+    public partial class AddDelWindowView : Form
     {
-        public Удалить_кормушку()
+        public AddDelWindowView()
         {
             InitializeComponent();
         }
 
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Удалить_кормушку_Load(object sender, EventArgs e)
+        private void Окно1_Load(object sender, EventArgs e)
         {
 
         }
