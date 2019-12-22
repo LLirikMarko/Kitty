@@ -1,4 +1,4 @@
-﻿namespace View
+﻿namespace cat_test
 {
     partial class Form3
     {

@@ -1,3 +1,9 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
 namespace Presentation
 {
     public interface IView
@@ -5,5 +11,6 @@ namespace Presentation
         void Show();
 
         void Close();
+
     }
 }

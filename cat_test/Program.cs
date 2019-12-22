@@ -4,8 +4,10 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using Ninject;
+using Pres;
 
-namespace View
+
+namespace cat_test
 {
     static class Program
     {
@@ -16,6 +18,11 @@ namespace View
         static void Main()
         {
             Ninject.StandardKernel kernel = new StandardKernel();
+            kernel.Bind<ApplicationContext>().ToConstant(new ApplicationContext());
+
+            kernel.Bind<IAddUser>().To<AddDelWindowView>();
+
+
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new MainWindowView());
